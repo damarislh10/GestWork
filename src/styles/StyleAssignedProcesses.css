@@ -1,0 +1,29 @@
+.item__assigned {
+  margin: 10px;
+  padding-left: 5px;
+}
+
+.contaner__list {
+  width: 80%;
+}
+.list__assigned {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btnAssign{
+  color: #fff !important;
+}
+
+.card-assign{
+  border: none;
+}
+
+.title-assign{
+  margin-top: 50% !important;
+}
+
+.containerAssigned{
+  display: flex;
+}

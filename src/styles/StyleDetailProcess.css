@@ -1,0 +1,16 @@
+.verpdf{
+    cursor: pointer;
+    color:var(--titlesColor);
+}
+
+.title__section{
+    margin-top: 1%;
+}
+
+.textareaResumen{
+    resize: none;
+}
+.docH3{
+    font-weight: 400;
+    font-size: 20px;
+}

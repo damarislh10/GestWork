@@ -1,0 +1,12 @@
+.containerProfile{
+    display: flex;
+    justify-content: center;
+}
+
+.form-profile{
+    width: 80%;
+}
+
+.fotoPerfil{
+    border-radius: 50%;
+}

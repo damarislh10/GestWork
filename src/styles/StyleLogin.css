@@ -1,0 +1,50 @@
+
+:root {
+    --btnbg: #05BE50;
+    --btnColor: #fff;
+    --titlesColor: #0039A6;
+    --menuColor: #1C1B1B;
+  }
+  .B{
+      font-size:35px;
+      font-weight:350;
+  }
+.bg{
+   margin-bottom: 55px;
+   background-position:center center ;
+}
+.a{
+    outline:none;
+    text-decoration: none;
+    padding: 25px 80px 15px;
+    font-weight: 500;
+    font-size:37px;
+    color:var(--titlesColor);
+
+}
+/* .btn{
+    color: var(--btnbg);
+
+} */
+
+.text-login {
+    color: var(--btnbg) !important;
+}
+.text-login:hover {
+    color: #fff !important;
+}
+#boton{
+    border-style: solid!important;
+    border-color:  var(--btnbg)!important;
+
+}
+#boton:hover{
+    background-color: var(--btnbg);
+    color:#fff;
+}
+.linkregistro{
+    outline:none;
+    text-decoration: none;
+    color: var(--titlesColor);
+    font-size: 18px;
+}

@@ -1,0 +1,129 @@
+.error {
+  color: brown;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: auto;
+  display: flex;
+}
+.Container {
+  max-width: 800px;
+  width: 250%;
+  background: rgb(242, 248, 242);
+  padding: 65px 30px;
+  border-radius: 5px;
+}
+.Container .title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  width: 150%;
+}
+.Container .title::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+
+  width: 40px;
+}
+.Container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.input-box {
+  width: 100%;
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 -20px);
+}
+.user-details .input-box {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 15px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: rgb(217, 228, 217);
+}
+.Btn {
+  justify-content: center;
+  align-items: center !important;
+  height: 38px;
+  width: 82%;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: #05be50 !important;
+  border-style: solid !important;
+}
+#centrar {
+  display: flex;
+  margin-left: 65px !important;
+}
+
+.Btn:hover {
+  background-color: #05be50;
+  color: #fff !important;
+}
+
+.linkini {
+  outline: none;
+  text-decoration: none;
+  color: #0039a6;
+  font-size: 18px;
+}
+
+@media (max-width: 584px) {
+  .Container {
+    max-width: 100%;
+  }
+  form .user-details .input-box {
+    margin: 20px 0 12px 0;
+    width: 100%;
+  }
+  .Container form .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  /* .user-detail::-webkit-scrollbar{
+
+    } */
+}
+h2 {
+  font-size: 30px;
+  font-weight: 330;
+  color: #0039a6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.text-register {
+  color: var(--btnbg) !important;
+}
+.text-register:hover {
+  color: #fff !important;
+}

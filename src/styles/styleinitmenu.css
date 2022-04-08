@@ -1,0 +1,58 @@
+.servicios{
+    margin-top: 10px;
+    padding: 20px 20px;
+
+}
+#navbarmenu{
+width: 100%;;
+}
+.nameuserMenu{
+  color: var(--titlesColor) !important;
+}
+.button {
+  text-transform: lowercase;
+  font-weight: 500;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+.titleMenu{
+  margin-top: 0;
+}
+.button-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+#mm{
+width: 100% !important;
+display: flex;
+}
+.button-primary-outline {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+#servicios .destaque {
+  display: block;
+  background: var(--light);
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px 20px;
+  color: #000;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+}
+
+
+#servicios .destaque:hover {
+  /* background:linear-gradient(white, #05BE50); */
+  border: 1px solid #05BE50;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+}
+
+#servicios .destaque .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}

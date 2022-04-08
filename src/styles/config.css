@@ -1,0 +1,31 @@
+
+:root {
+  --btnbg: #05BE50;
+  --btnColor: #fff;
+  --titlesColor: #0039A6;
+  --menuColor: #1C1B1B;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+  } 
+  a {
+  text-decoration: none; 
+  }
+
+  .title__section {
+    color: var(--titlesColor);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+  }
+ 
