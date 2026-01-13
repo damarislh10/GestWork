@@ -2,8 +2,7 @@
 
 ##  Gestwork
 
-Es poder tener un lugar de control para gestionar cada proceso; esto es indispensable para un mayor crecimiento y tener la posibilidad de darle visibilidad y prioridad a las solicitudes e ideas, con gestwork no hay espacio para pérdidas de información y así todo su equipo podrá mantenerse
-conectado en una misma red.
+Es poder tener un lugar de control para gestionar cada proceso; esto es indispensable para un mayor crecimiento y tener la posibilidad de darle visibilidad y prioridad a las solicitudes e ideas, con gestwork no hay espacio para pérdidas de información y así todo su equipo podrá mantenerse conectado en una misma red.
 
 *********************
 
